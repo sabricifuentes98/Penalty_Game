@@ -1,0 +1,18 @@
+package Game;
+
+import java.awt.AWTException;
+
+public class GameManager {
+	
+	UI ui = null;
+
+	public GameManager() throws InterruptedException {
+		ui = new UI(this);
+	}
+	
+	public static void main(String[] args) throws InterruptedException {
+		new GameManager();
+
+	}
+
+}
